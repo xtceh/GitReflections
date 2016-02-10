@@ -1,3 +1,24 @@
 When would you want to create a remote repository rather than keeping all your work local?
 
-  
+	To enable me to access it from another computer or for another person to read or contribute to it.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Might be working on something locally that you don't want to overwrite.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Branches are locally stored lists of commits which parent each other. Clones are copies of repositories. Forks are copies fo repositories within GitHub, allowing a history to show where ther=y forked from. Branches are used to perform developmental work without wrecking anything. Clones are used to take complete copies of repositories in order to work with them elsewhere. Forks are used within GitHub to keep history but to separate the repositories.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	For offline work when you were not ready to merge the local repository (as it had other changes that were not yet ready to be published) with the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	By sending e-mails or accessing versions on a shared drive which we could arrange to give different names. One person would then have to be the only person who could update the central version with other people's changes. It would be quicker for simple changes with not too many people involved but would be difficult to hold full histories of changes and would get very difficult once there was a lot of people involved.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When we want to make it available to others to check and decide whether to marge it into master. This is slower but allows the checking process to take place.
