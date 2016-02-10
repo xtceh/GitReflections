@@ -19,3 +19,11 @@ How do the diagrams help you visualise the branch structure?
 
 	The clue is in the question. A simple list is difficult for a human to keep in their head but a diagram is easier.
 
+What is the result of merging two branches together? Why do we represent it in the diagram in they way we do?
+
+	One branch is merged into the other with all actively new or subtracted changes being kept. A new commit is created with a default comment that can be adjusted. The new commit has two parents and the two branches connect.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Makes it faster and flags where any conflicts are. But could introduce mutually exclusive changes.
+
