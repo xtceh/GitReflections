@@ -6,4 +6,16 @@ How is the staging area different from the working directory and the repository?
 
 	The repository holds commit history and the working directory holds all files being worked on but the staging area holds a list of the files that the user wishes to commit. This helps for flexibility in deciding what to commit rather than the whole working directory every time.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	If several files have been changed in the working directory, the changes can be separated by putting them into the staging area one at a time or in batches.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches help where a parallel development is being coded which may or may not work out and be merged with the main development at some future date.
+
+
+How do the diagrams help you visualise the branch structure?
+
+	The clue is in the question. A simple list is difficult for a human to keep in their head but a diagram is easier.
 
